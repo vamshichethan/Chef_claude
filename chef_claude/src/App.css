@@ -1,0 +1,67 @@
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(247, 246, 246);
+  gap: 30px;
+  height: 150px;
+  border: 1px solid rgb(202, 185, 185);
+}
+
+.header > img{
+  width: 60px;
+}
+
+.header > h1{
+  font-size: xx-large;
+  font-weight: 350;
+}
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  gap: 20px;
+}
+
+.form > input {
+  width: 450px;
+  height: 40px;
+}
+.form > button {
+
+  width: 200px;
+  height: 45px;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 2%;
+
+}
+
+input {
+  padding-left: 15px;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  margin-left: 400px;
+}
+
+.btn-box{
+  background-color: rgb(247, 246, 246);
+  padding: 30px;
+  display: flex;
+  width: 55%;
+}
+
+.aibtn{
+  background-color: rgb(235, 78, 11);
+  color: white;
+  font-size: large;
+  margin-left: 100px;
+  height: 60px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+}

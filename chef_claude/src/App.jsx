@@ -1,8 +1,13 @@
 import  './App.css'
+import Header from './components/header'
+import Form from './components/form'
 
 function App() {
   return (
-    <h1></h1>
+    <>
+       <Header />
+       <Form />
+    </>
   )
 }
 
