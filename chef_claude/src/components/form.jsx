@@ -26,20 +26,20 @@ export default function Form() {
         <button id="btn">+ Add ingredients</button>
       </form>
 
-      {Ingred.length > 0 && (
-  <section>
-    <h1>Ingredients on hand :</h1>
-    <ul>{allIngred}</ul>
+        {Ingred.length > 0 && (
+            <section>
+                <h1>Ingredients on hand :</h1>
+                <ul>{allIngred}</ul>
 
-    <div className="btn-box">
-      <div>
-        <h3>Ready for a recipe</h3>
-        <p>Generate a recipe from your list of ingredients</p>
-      </div>
-      <button className="aibtn">Get a recipe</button>
-    </div>
-  </section>
-)}
+                <div className="btn-box">
+                <div>
+                    <h3>Ready for a recipe</h3>
+                    <p>Generate a recipe from your list of ingredients</p>
+                </div>
+                <button className="aibtn">Get a recipe</button>
+                </div>
+            </section>
+        )}
 
     </>
   )
