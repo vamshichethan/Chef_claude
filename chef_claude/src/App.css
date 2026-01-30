@@ -8,6 +8,19 @@
   border: 1px solid rgb(202, 185, 185);
 }
 
+.recipe-box {
+  margin-top: 30px;
+  background-color: white;
+  padding: 25px;
+  width: 55%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.recipe-box pre {
+  white-space: pre-wrap;
+  font-family: system-ui;
+}
 .header > img{
   width: 60px;
 }
